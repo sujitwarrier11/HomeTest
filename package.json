@@ -1,0 +1,36 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "This is a test.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "npm run build && node server.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sujit Warrier",
+    "email": "sujit.warrier11@gmail.com",
+    "url": "https://stackoverflow.com/story/sujit.warrier11"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "jest": "^25.1.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
+  }
+}
