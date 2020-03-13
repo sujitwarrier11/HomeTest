@@ -1,3 +1,4 @@
+const path = require('path');
 module.exports = {
     entry: './src/Components/app.js',
     module: {
@@ -10,6 +11,11 @@ module.exports = {
           }
         }
       ],
+    },
+    resolve: {
+      alias: {
+        '@root': path.resolve(__dirname, './'), 
+      }
     },
     output:{
         filename: 'main.js',

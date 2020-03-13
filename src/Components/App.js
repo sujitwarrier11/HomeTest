@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import { createStore,applyMiddleware } from 'redux';
-import reducer from './src/Redux/reducer';
+import reducer from '@root/src/Redux/reducer';
 import createSagaMiddleware from 'redux-saga';
 
 
