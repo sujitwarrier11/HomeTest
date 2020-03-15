@@ -6,9 +6,10 @@ module.exports = {
         {
           test: /\.(js|jsx)$/,
           exclude: /node_modules/,
-          use: {
-            loader: "babel-loader"
-          }
+          loader: "babel-loader",
+          query: {
+            presets: ["@babel/preset-env"]
+         }
         }
       ],
     },

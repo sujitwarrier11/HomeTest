@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const axiosHeader = getRequestHeader();
+const axiosHeader = {};
 const httpRequest = axios.create({
   headers: axiosHeader
 });
